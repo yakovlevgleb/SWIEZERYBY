@@ -1,0 +1,49 @@
+.header {
+  .container {
+    width: 1280px;
+    height: 600px;
+    background-image: url("/img/intro.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: @background-intro;
+    padding-top: 41px;
+  }
+}
+
+.header__logo {
+  float: left;
+}
+
+.header__nav {
+  float: right;
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    float: left;
+    margin-left: 19px;
+  }
+
+  a {
+    text-decoration: none;
+    color: @white;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-bottom: 5px;
+
+    &:hover {
+      border-bottom: 1px solid @white;
+    }
+  }
+}
+
+.header__telephone {
+  position: relative;
+  border-radius: 4px;
+  background-color: @blue;
+  top: -14px;
+  padding: 14px;
+  margin-left: 13px;
+}
