@@ -1,4 +1,4 @@
-# SWIEZERYBY [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
+# SWIEZERYBY [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]  [![devDependency status][devDependencies-image]][devDependencies-url]
 28 06 2017
 
 ## Install & Run
@@ -15,3 +15,5 @@ npm start
 [travis-url]: https://travis-ci.org/yakovlevgleb/SWIEZERYBY
 [dependency-image]: https://david-dm.org/yakovlevgleb/SWIEZERYBY.svg?style=flat-square
 [dependency-url]: https://david-dm.org/yakovlevgleb/SWIEZERYBY?type=dev
+[devDependencies-image]: https://david-dm.org/yakovlevgleb/SWIEZERYBY/dev-status.svg
+[devDependencies-url]: https://david-dm.org/yakovlevgleb/SWIEZERYBY?type=dev
