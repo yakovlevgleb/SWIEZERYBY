@@ -1,4 +1,6 @@
 # SWIEZERYBY [![Build status][travis-image]][travis-url] [![devDependency status][devDependencies-image]][devDependencies-url]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/yakovlevgleb/SWIEZERYBY.svg)](https://greenkeeper.io/)
 28 06 2017
 
 ## Install & Run
