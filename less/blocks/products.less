@@ -1,12 +1,12 @@
 /* ------------------------------------------ */
 /* ------------ PRODUCTS BLOCK -------------- */
 /* ------------------------------------------ */
-
 .products {
 	padding-top: 173px;
 
 	.container {
 		text-align: center;
+		position: relative;
 	}
 
 	.title {
@@ -20,8 +20,8 @@
 			left: 50%;
 			height: 1px;
 			width: 81px;
-      transform: translate(-50%, -50%);
-      background-color: @gray-line;
+			transform: translate(-50%, -50%);
+			background-color: @gray-line;
 		}
 	}
 
@@ -110,4 +110,33 @@
 	background-repeat: no-repeat;
 	background-color: @blue;
 	margin-right: 0;
+}
+
+.products__arrow--left {
+
+	&::before {
+		content: "";
+		position: absolute;
+		bottom: 211px;
+		left: 27px;
+		height: 41px;
+		width: 41px;
+		transform: translate(-50%, -50%);
+		background-image: url("../img/arrow-left.png");
+		background-repeat: no-repeat;
+	}
+}
+
+.products__arrow--right {
+	&::before {
+		content: "";
+		position: absolute;
+		bottom: 211px;
+		right: -13px;
+		height: 41px;
+		width: 41px;
+		transform: translate(-50%, -50%);
+		background-image: url("../img/arrow-right.png");
+		background-repeat: no-repeat;
+	}
 }

@@ -4,6 +4,7 @@
 
 .link {
   display: inline-block;
+  position: relative;
   color: @white;
   width: 152px;
   font-size: 14px;
@@ -13,4 +14,17 @@
   background-color: @blue;
   padding: 15px 20px;
   border-radius: 5px;
+
+  &:hover {
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: 8px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 1px;
+      width: 75%;
+      background-color: @white;
+    }
+  }
 }
