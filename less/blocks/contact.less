@@ -1,0 +1,62 @@
+/* ------------------------------------------ */
+/* ------------- CONTACT BLOCK -------------- */
+/* ------------------------------------------ */
+.contact {
+	.container {
+		background-color: @light-gray;
+		padding-top: 55px;
+    padding-bottom: 61px;
+	}
+}
+
+.contact__about,
+.contact__information {
+	float: left;
+}
+
+.contact__header {
+	font-size: 22px;
+	text-transform: uppercase;
+	color: @gray;
+  margin-bottom: 25px;
+}
+
+.contact__about {
+	margin-right: 230px;
+
+	&:nth-child(2) {
+		margin-right: 135px;
+	}
+
+	a {
+		display: block;
+		font-family: "Hind", sans-serif;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 21px;
+		color: @gray;
+    margin-bottom: 4px;
+	}
+}
+
+.contact__information {
+	margin-right: 65px;
+
+	&:nth-child(2) {
+		margin-right: 0;
+	}
+
+	li {
+		font-family: "Hind", sans-serif;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 21px;
+		color: @gray;
+    margin-bottom: 5px;
+
+		span {
+			font-weight: 700;
+			color: @gray;
+		}
+	}
+}
