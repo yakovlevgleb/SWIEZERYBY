@@ -1,62 +1,83 @@
 /* ------------------------------------------ */
 /* ------------- CONTACT BLOCK -------------- */
 /* ------------------------------------------ */
-.contact {
-	.container {
-		background-color: @light-gray;
-		padding-top: 55px;
-    padding-bottom: 61px;
-	}
+.contact
+{
+    .container
+    {
+        padding-top: 55px;
+        padding-bottom: 61px;
+
+        background-color: @light-gray;
+    }
 }
 
 .contact__about,
-.contact__information {
-	float: left;
+.contact__information
+{
+    float: left;
 }
 
-.contact__header {
-	font-size: 22px;
-	text-transform: uppercase;
-	color: @gray;
-  margin-bottom: 25px;
+.contact__header
+{
+    font-size: 22px;
+
+    margin-bottom: 25px;
+
+    text-transform: uppercase;
+
+    color: @gray;
 }
 
-.contact__about {
-	margin-right: 230px;
+.contact__about
+{
+    margin-right: 230px;
 
-	&:nth-child(2) {
-		margin-right: 135px;
-	}
+    &:nth-child(2)
+    {
+        margin-right: 135px;
+    }
 
-	a {
-		display: block;
-		font-family: "Hind", sans-serif;
-		font-weight: 400;
-		font-size: 14px;
-		line-height: 21px;
-		color: @gray;
-    margin-bottom: 4px;
-	}
+    a
+    {
+        font-family: 'Hind', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+
+        display: block;
+
+        margin-bottom: 4px;
+
+        color: @gray;
+    }
 }
 
-.contact__information {
-	margin-right: 65px;
+.contact__information
+{
+    margin-right: 65px;
 
-	&:nth-child(2) {
-		margin-right: 0;
-	}
+    &:nth-child(2)
+    {
+        margin-right: 0;
+    }
 
-	li {
-		font-family: "Hind", sans-serif;
-		font-weight: 400;
-		font-size: 14px;
-		line-height: 21px;
-		color: @gray;
-    margin-bottom: 5px;
+    li
+    {
+        font-family: 'Hind', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
 
-		span {
-			font-weight: 700;
-			color: @gray;
-		}
-	}
+        margin-bottom: 5px;
+
+        color: @gray;
+
+        span
+        {
+            font-weight: 700;
+
+            color: @gray;
+        }
+    }
 }

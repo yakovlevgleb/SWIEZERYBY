@@ -1,75 +1,101 @@
 /* ------------------------------------------ */
 /* --------------- MAP BLOCK ---------------- */
 /* ------------------------------------------ */
-.map {
-	text-align: right;
+.map
+{
+    text-align: right;
 
-	.container {
-		height: 534px;
-		padding-top: 130px;
-		position: relative;
-		background-color: @blue;
-	}
+    .container
+    {
+        position: relative;
 
-	.title {
-		float: right;
-    position: relative;
-		color: @white;
-		margin-bottom: 47px;
+        height: 534px;
+        padding-top: 130px;
 
-		&::after {
-			content: "";
-			position: absolute;
-			bottom: -24px;
-			right: 0;
-			height: 1px;
-			width: 81px;
-			background-color: @gray-line;
-		}
-	}
+        background-color: @blue;
+    }
 
-	.comment {
-		float: right;
-		clear: both;
-		vertical-align: top;
-		width: 500px;
-    margin-bottom: 31px;
+    .title
+    {
+        position: relative;
+
+        float: right;
+
+        margin-bottom: 47px;
+
+        color: @white;
+
+        &::after
+        {
+            position: absolute;
+            right: 0;
+            bottom: -24px;
+
+            width: 81px;
+            height: 1px;
+
+            content: '';
+
+            background-color: @gray-line;
+        }
+    }
+
+    .comment
+    {
+        float: right;
+        clear: both;
+
+        width: 500px;
+        margin-bottom: 31px;
+
+        vertical-align: top;
 
 
-		p {
-			color: @white;
-		}
-	}
+        p
+        {
+            color: @white;
+        }
+    }
 
-	.link {
-    width: 105px;
-    padding: 13px 0;
-		clear: both;
-		float: right;
-		background-color: @white;
-		color: @blue;
-    border-radius: 4px;
-	}
+    .link
+    {
+        float: right;
+        clear: both;
+
+        width: 105px;
+        padding: 13px 0;
+
+        color: @blue;
+        border-radius: 4px;
+        background-color: @white;
+    }
 }
 
-.map__map {
-	float: left;
+.map__map
+{
+    float: left;
 
-	&::before {
-		content: "";
-		background-image: url("../img/map.png");
-		background-position: center;
-		background-repeat: no-repeat;
-		position: absolute;
-		top: 0;
-		left: 0;
-		height: 534px;
-		width: 709px;
-	}
+    &::before
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
 
-	&:hover {
-		&::before {
-			background-image: url("../img/map-hover.png");
-		}
-	}
+        width: 709px;
+        height: 534px;
+
+        content: '';
+
+        background-image: url('../img/map.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &:hover
+    {
+        &::before
+        {
+            background-image: url('../img/map-hover.png');
+        }
+    }
 }
