@@ -3,7 +3,7 @@
 		"version": "0.1.0",
 		"description": "SWIEZERYBY psd to html&css",
 		"devDependencies": {
-			"autoprefixer": "^6.3.0",
+			"autoprefixer": "^7.1.1",
 			"cssnano": "^3.0.0",
 			"editorconfig-tools": "^0.1.1",
 			"grunt": "^1.0.1",
@@ -17,6 +17,6 @@
 			"start": "npm run build && grunt"
 		},
 		"engines": {
-			"node": "^5.11"
+			"node": "^6.11"
 		}
 	}
